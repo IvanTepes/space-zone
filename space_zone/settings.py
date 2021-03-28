@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',  # social accounts
+
+    # My Apps
+    'home',
 ]
 
 MIDDLEWARE = [

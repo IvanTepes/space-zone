@@ -1,0 +1,36 @@
+body {
+    /* background: url('/media/test-1.jpg') no-repeat center center fixed; */
+    background: var(--main-bg)!important;
+    background-size: auto;
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+#navbar,
+#footer {
+    background: var(--main-dark);
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* To See Boxes */
+* {
+   outline: 1px solid red !important;
+}
